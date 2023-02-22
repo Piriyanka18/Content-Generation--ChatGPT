@@ -1,0 +1,25 @@
+.academic-page {
+  background-color: #ef93dd; /* set the background color */
+}
+
+.program {
+  border: 1px solid #c822f2; /* add a border around each program */
+  padding: 20px; /* add some padding to each program */
+  margin-bottom: 20px; /* add some margin between each program */
+}
+
+.program h3 {
+  color: #e39bf3; /* set the program title color */
+}
+
+.program p {
+  color: #080808; /* set the program description color */
+}
+
+.program:nth-child(odd) {
+  background-color: #e4f7aa; /* add a white background to every other program */
+}
+
+.program:nth-child(even) {
+  background-color: #aef3f1; /* add a light gray background to every other program */
+}
